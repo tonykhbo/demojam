@@ -1,6 +1,7 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  overflow-y:hidden;
+  overflow-x:hidden;
 }
 
 a {
@@ -8,6 +9,21 @@ a {
 }
 
 .info {
-	padding-top:100px;
 
+}
+
+.carousel-item {
+  height:100%;
+  width:100%;
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+.text-block {
+	background-color: rgba(0, 0, 0, 0.56);
+	border-radius: 25px;
 }
