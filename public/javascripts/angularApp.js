@@ -11,6 +11,22 @@ function($stateProvider, $urlRouterProvider) {
       templateUrl: 'templates/home.html',
       controller: 'MainCtrl'
     })
+    .state('gallery', {
+      url: '/gallery',
+      templateUrl: 'templates/gallery.html',
+      controller: 'MainCtrl'
+    })
+    .state('controls', {
+      url: '/controls',
+      templateUrl: 'templates/controls.html',
+      controller: 'MainCtrl'
+    })
+    .state('about', {
+      url: '/about',
+      templateUrl: 'templates/about.html',
+      controller: 'MainCtrl'
+    })
+
 
   $urlRouterProvider.otherwise('home');
 }]);

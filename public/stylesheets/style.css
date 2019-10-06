@@ -27,3 +27,61 @@ a {
 	background-color: rgba(0, 0, 0, 0.56);
 	border-radius: 25px;
 }
+.controls-container {
+  height: 100%;
+
+}
+.content{
+  margin: 2% auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.button-div {
+  padding-left:10%;
+  padding-right:10%;
+  padding-top:10%;
+  padding-bottom:10%;
+
+}
+
+.button {
+  padding-top: 30%;
+  padding-bottom: 30%;
+  font-size: 250%;
+  border: 1px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 30px;
+}
+
+
+@media all and (min-height:568px){
+   .button {
+      margin-top: 0%;
+      padding-top: 30%;
+      padding-bottom: 30%;
+      font-size: 250%;
+ }
+
+@media all and (max-height:667px){
+   .row-container {
+      margin-top: 0%;
+ }
+ @media all and (min-height:811px){
+   .row-container {
+      margin-top: 25%;
+ }
+
+ @media all and (min-width: 580px){
+   .row-center {
+      margin-top: 5%; 
+      margin-bottom: 5%;
+ }
+
+
+
+
+
+
+

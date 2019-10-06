@@ -4,3 +4,4 @@ angular.module('mean')
 function($scope){
     $scope.data = {message: 'Hello'};
 }]);
+
