@@ -1,14 +1,26 @@
-<div style='background-image: url("images/shadowman.png");background-size:100% 100%;height:100%;
+<div style='background-color: #e8e1e1;background-size:100% 100%;height:100%;
   width:100%;'>
   <div class='row row-container'>
     <div class='col-sm-6 button-div'>
-      <button type="button" class="btn btn-block button" style='background-image: url("images/slack.png");background-size: 100% 100%;opacity: .75;'>
+      <button type="button" class="btn btn-block button" style='background-image: url("images/remote.png");background-size: 100% 100%;opacity: .70;' onclick="location.href='https://directive-producer-demojam.apps.demojam-0498.open.redhat.com/';">
       </button>
     </div>
+    
     <div class='col-sm-6 button-div'>
-      <button type="button" class="btn btn-block button" style='background-image: url("images/remote.png");background-size: 100% 100%;opacity: .75;'>
+      <button type="button" class="btn btn-block button" style='background-image: url("images/slack.png");background-size: 100% 100%;opacity: .70;' onclick="random_2()">
       </button>
     </div>
 
   </div>
 </div>
+<script type="text/javascript">
+  function random_2(){
+      var myrandom=Math.round(Math.random())
+      var link1="https://app.slack.com/client/T0383HKJ0/CNSRA1WQM"
+      var link2="https://app.slack.com/client/T0383HKJ0/CNE2Q20G2"
+      if (myrandom==0)
+          window.location=link1
+      else if (myrandom==1)
+          window.location=link2
+  }
+</script>
