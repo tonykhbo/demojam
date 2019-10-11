@@ -44,6 +44,18 @@ a {
   padding-bottom:10%;
 
 }
+.text-div {
+  padding-left:10%;
+  padding-right:10%;
+  padding-top:1%;
+  padding-bottom:1%;
+  font-size:200%; 
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+
+}
 
 .button {
   padding-top: 30%;
@@ -63,21 +75,54 @@ a {
       padding-bottom: 30%;
       font-size: 250%;
  }
+}
 
 @media all and (max-height:667px){
    .row-container {
       margin-top: 0%;
  }
+ .text-div {
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:4%;
+    padding-bottom:2%;
+    font-size:150%; 
+    text-align: center;
+  }
+  .button-div {
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:3%;
+    padding-bottom:3%;
+
+  }
+}
  @media all and (min-height:811px){
    .row-container {
       margin-top: 25%;
  }
+ .text-div {
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:4%;
+    padding-bottom:2%;
+    font-size:150%; 
+    text-align: center;
+  }
+  .button-div {
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:3%;
+    padding-bottom:3%;
 
+  }
+}
  @media all and (min-width: 580px){
    .row-center {
       margin-top: 5%; 
       margin-bottom: 5%;
  }
+}
 
 
 
