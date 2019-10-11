@@ -234,8 +234,7 @@ a {
 /*iphone pro max, xs max*/
 @media only screen 
     and (device-width : 414px) 
-    and (device-height : 896px) 
-    and (-webkit-device-pixel-ratio : 3) {
+    and (device-height : 896px)  {
   .row-container {
       margin-top: 2%;
  }
@@ -244,7 +243,7 @@ a {
     padding-right:10%;
     padding-top:3%;
     padding-bottom:3%;
-    font-size:150%; 
+    font-size:200%; 
     text-align: center;
     display: flex;
     align-items: center;
