@@ -231,6 +231,33 @@ a {
 
   }
 }
+/*iphone pro max, xs max*/
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 3) {
+  .row-container {
+      margin-top: 2%;
+ }
+ .text-div {
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:3%;
+    padding-bottom:3%;
+    font-size:150%; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .button-div {
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:3%;
+    padding-bottom:3%;
+
+  }
+}
 
 
 
