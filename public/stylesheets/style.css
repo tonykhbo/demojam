@@ -68,7 +68,7 @@ a {
   border-radius: 30px;
 }
 /*pixel2*/
-@media only screen and (min-device-width: 411px) and (max-device-height: 731px){
+@media only screen and (min-device-width: 411px) and (max-device-height: 731px) and (orientation : portrait){
   .text-div {
     padding-left:10%;
     padding-right:10%;
