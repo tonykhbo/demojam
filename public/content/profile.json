@@ -1,0 +1,19 @@
+[
+			{
+				"id":"0",
+				"name": "Andy Krohg",
+				"description": "Andy Krohg is originally from New Jersey, coming from a background in consulting. His strongest areas of focus lie in CI/CD, process automation, and cloud transformation. Andy is also a golfer, a frolfer, a volleyball player, and a video game slayer. He can also juggle three of pretty much any object that's not on fire, and ride a unicycle."
+			},
+			{
+				"id":"1",
+				"name": "Andres Romero",
+				"description" : ""
+
+			},
+			{
+				"id":"2",
+				"name": "Tony Bo",
+				"description": "Tony is from Charlotte, NC. He graduated from UNC - Chapel Hill with Computer Science and has expertise in full stack development, infastructure automation, networking, and video games. Tony has a lovely australian shepherd name Ella."
+			}
+
+]

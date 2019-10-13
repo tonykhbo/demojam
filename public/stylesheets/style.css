@@ -258,6 +258,33 @@ a {
   }
 }
 
+.profiles-div {
+  height:90%;
+  overflow-y: scroll;
+  padding: 5%;
+}
+
+.profile-div {
+      justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+
+.fill img {
+    flex: 1;
+    width: 100%;
+}
+
 
 
 
