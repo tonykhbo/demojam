@@ -6,11 +6,6 @@ angular.module('mean', ['ui.router'])
 function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
-    .state('home', {
-      url: '/home',
-      templateUrl: 'templates/home.html',
-      controller: 'MainCtrl'
-    })
     .state('gallery', {
       url: '/gallery',
       templateUrl: 'templates/gallery.html',
@@ -28,5 +23,5 @@ function($stateProvider, $urlRouterProvider) {
     })
 
 
-  $urlRouterProvider.otherwise('home');
+  $urlRouterProvider.otherwise('about');
 }]);
