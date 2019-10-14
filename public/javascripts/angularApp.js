@@ -6,22 +6,15 @@ angular.module('mean', ['ui.router'])
 function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
-    // .state('gallery', {
-    //   url: '/gallery',
-    //   templateUrl: 'templates/gallery.html',
-    //   controller: 'MainCtrl'
-    // })
-    .state('controls', {
-      url: '/controls',
-      templateUrl: 'templates/controls.html',
+    .state('play', {
+      url: '/play',
+      templateUrl: 'templates/play.html',
       controller: 'MainCtrl'
     })
-    .state('about', {
-      url: '/about',
-      templateUrl: 'templates/about.html',
+    .state('sprint', {
+      url: '/sprint',
+      templateUrl: 'templates/index.html',
       controller: 'MainCtrl'
     })
-
-
-  $urlRouterProvider.otherwise('about');
+  $urlRouterProvider.otherwise('sprint');
 }]);
