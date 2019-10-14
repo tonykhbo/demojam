@@ -126,11 +126,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(52, 59, 64, 0.7);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
-  opacity: .6;
+  opacity: .7;
 }
 
 /*--------------------------------------------------------------
@@ -997,13 +997,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 25px;
   border: 2px solid 255,255,255;
   padding: 10px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.4);
+  object-fit: cover;
+  z-index:20;
+}
+
+#play .member .pic:hover {
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 #play .member .pic img {
   max-width: 100%;
   width: auto;
   height: 100%;
+  object-fit: cover;
 }
 
 #play .member h4 {
