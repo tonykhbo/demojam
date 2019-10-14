@@ -126,7 +126,7 @@ jQuery(document).ready(function ($) {
   });
 
   // custom code
-  $("#slack_button").click(function (){
+  $(document).on("click", "#slack_button", function (){
       var myrandom=Math.round(Math.random())
       var link1="https://redhat.slack.com/app_redirect?channel=CNSRA1WQM"
       var link2="https://redhat.slack.com/app_redirect?channel=CNE2Q20G2"
@@ -135,11 +135,11 @@ jQuery(document).ready(function ($) {
       else if (myrandom==1)
           window.location=link2
   });
-  $("#remote_button").click(function (){
+  $(document).on("click", "#remote_button", function (){
     var client = new XMLHttpRequest();
     client.open('GET', 'config/remote.txt');
     client.onreadystatechange = function() {
-      document.getElementById("remote").onclick = `location.href='${client.responseText}';`;      
+      window.location=client.responseText;      
     }
     client.send();
   });
