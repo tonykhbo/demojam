@@ -139,7 +139,7 @@ jQuery(document).ready(function ($) {
     var client = new XMLHttpRequest();
     client.open('GET', 'config/remote.txt');
     client.onreadystatechange = function() {
-      document.getElementById("remote").onclick = `location.href='${client.responseText}';`;      
+      window.location=client.responseText;      
     }
     client.send();
   });
