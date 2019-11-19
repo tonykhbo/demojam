@@ -997,8 +997,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   display:flex;
   justify-content: center;
   align-content: center;
-  height: 130px;
-  width: 130px;
   border-radius: 25px;
   border: 2px solid 255,255,255;
   padding: 10px;
@@ -1007,9 +1005,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index:20;
 }
 
-#instructions .member .pic:hover {
+/*#instructions .member .pic:hover {
     background-color: rgba(255, 255, 255, 0.8);
-}
+}*/
 
 #instructions .member .pic img {
   max-width: 100%;
