@@ -125,23 +125,5 @@ jQuery(document).ready(function ($) {
     time: 1000
   });
 
-  // custom code
-  $(document).on("click", "#slack_button", function (){
-      var myrandom=Math.round(Math.random())
-      var link1="https://redhat.slack.com/app_redirect?channel=CNSRA1WQM"
-      var link2="https://redhat.slack.com/app_redirect?channel=CNE2Q20G2"
-      if (myrandom==0)
-          window.location=link1
-      else if (myrandom==1)
-          window.location=link2
-  });
-  $(document).on("click", "#remote_button", function (){
-    var client = new XMLHttpRequest();
-    client.open('GET', 'config/remote.txt');
-    client.onreadystatechange = function() {
-      window.location=client.responseText;      
-    }
-    client.send();
-  });
 
 });
