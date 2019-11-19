@@ -969,7 +969,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Team Section
 --------------------------------*/
-#play {
+#instructions {
   width: 100%;
   height: 100%;
   background: url(../img/redhatbg.jpg) bottom center;
@@ -979,18 +979,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow-y: hidden;
 }
 
-#play .section-description {
+#instructions .section-description {
   margin-top: 20px;
   color:#fff;
   font-size: 30px;
 }
 
-#play .member {
+#instructions .member {
   text-align: center;
   margin-bottom: 20px;
 }
 
-#play .member .pic {
+#instructions .member .pic {
   margin: 0 auto;
   margin-bottom: 15px;
   overflow: hidden;
@@ -1007,18 +1007,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index:20;
 }
 
-#play .member .pic:hover {
+#instructions .member .pic:hover {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-#play .member .pic img {
+#instructions .member .pic img {
   max-width: 100%;
   width: auto;
   height: 100%;
   object-fit: cover;
 }
 
-#play .member h4 {
+#instructions .member h4 {
   font-weight: 800;
   margin-bottom: 2px;
   font-size: 20px;
@@ -1026,26 +1026,26 @@ body.mobile-nav-active #mobile-nav-toggle {
   min-height: 42px;
 }
 
-#play .member span {
+#instructions .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
   color: #fff;
 }
 
-#play .member .social {
+#instructions .member .social {
   margin-top: 15px;
 }
 
-#play .member .social a {
+#instructions .member .social a {
   color: #b3b3b3;
 }
 
-#play .member .social a:hover {
+#instructions .member .social a:hover {
   color: #fb594c;
 }
 
-#play .member .social i {
+#instructions .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
