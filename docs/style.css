@@ -994,7 +994,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 auto;
   margin-bottom: 15px;
   overflow: hidden;
-  display:flex;
+  /*display:flex;*/
   justify-content: center;
   align-content: center;
   border-radius: 25px;
