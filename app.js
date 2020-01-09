@@ -38,6 +38,12 @@ app.use(function(req, res, next) {
   next(err);
 });
 
+//Openshift Environmental Variable
+
+//var invert = process.env.INVERT
+
+//console.log(invert);
+
 // error handler
 app.use(function(err, req, res, next) {
   // set locals, only providing error in development

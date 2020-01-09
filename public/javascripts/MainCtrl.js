@@ -2,17 +2,19 @@ angular.module('mean')
 .controller('MainCtrl', [
 '$scope',
 '$http',
-function($scope, $http){
+'main',
+function($scope, $http, main){
     $scope.data = {message: 'Hello'};
-
-    // $http.get('content/profile.json')
-    //    .then(function(result){
-    //    		console.log(result);
-    //    		console.log(result.data)
-    //     	$scope.profiles = result.data;
-    //     	console.log($scope.profiles)
-
-    //     });
+    $scope.theColor = "";
+   
+    main.getChange().then(function(value) {
+    	console.log(angular.lowercase(value));
+    	if (angular.lowercase(value) == "true") {
+    		$scope.theColor = "green";
+    	} else {
+    		$scope.theColor = "";
+    	}
+    });
 
 }]);
 
