@@ -8,7 +8,7 @@ function($scope, $http, main){
     $scope.theColor = "";
    
     main.getChange().then(function(value) {
-    	console.log(angular.lowercase(value));
+    	//console.log(angular.lowercase(value));
     	if (angular.lowercase(value) == "true") {
     		$scope.theColor = "green";
     	} else {
